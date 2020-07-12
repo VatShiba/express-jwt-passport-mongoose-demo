@@ -1,3 +1,21 @@
+# Nodejs Express: Registration & Login with JWT + passport-local, Mongoose
+
+Nodejs Express API for register/login, GET user profile example. Using JWT and passport-local as user validation. Database mapping by mongoose.
+
+## Installation
+
+
+```bash
+npm install
+```
+or
+```bash
+yarn install
+```
+
+## Usage
+
+```test
 ## TESTING WITH POSTMAN ##
 
 # Register 
@@ -72,3 +90,10 @@ result:{
     "exp": 1599746022,
     "iat": 1594562022
 }
+```
+
+## Reference
+
+https://thinkster.io/tutorials/node-json-api/creating-the-user-model
+
+
